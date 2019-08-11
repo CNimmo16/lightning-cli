@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const sodium = require('sodium').api;
+// const sodium = require('sodium').api;
 
 const userSchema = new mongoose.Schema({
     email: String,
